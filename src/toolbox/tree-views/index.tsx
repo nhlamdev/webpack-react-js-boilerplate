@@ -1,3 +1,3 @@
 export const TreeViewsComponent = () => {
-  return <div></div>
+  return <div>tree views</div>
 }

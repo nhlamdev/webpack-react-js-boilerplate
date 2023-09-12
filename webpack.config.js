@@ -17,8 +17,8 @@ module.exports = (env, argv) => {
 
   const config = {
     entry: {
-      bundle: path.resolve(__dirname, 'src/index.tsx'),
-      doom: path.resolve(__dirname, 'src/dom/index.ts')
+      bundle: path.resolve(__dirname, 'src/index.tsx')
+      // doom: path.resolve(__dirname, 'src/dom/index.ts')
     },
     output: {
       filename: 'js/[name].[contenthash].js', // output

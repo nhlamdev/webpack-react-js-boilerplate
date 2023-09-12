@@ -1,3 +1,3 @@
 export const AllPropertiesView = () => {
-  return <div></div>
+  return <div>properties</div>
 }

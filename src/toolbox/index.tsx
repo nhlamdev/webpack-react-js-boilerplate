@@ -35,14 +35,6 @@ export const ToolboxComponent = () => {
             className='text-lg font-semibold text-center w-full text-slate-300 group-hover:text-slate-800'
             style={{ transition: 'all ease .3s' }}
           />
-
-          <span
-            className='group-hover:opacity-100 transition-opacity bg-gray-600 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 
-                        -translate-x-1/2 opacity-0 m-4 mx-auto whitespace-nowrap'
-            style={{ transition: 'all ease .3s' }}
-          >
-            components
-          </span>
         </button>
         <button
           className={`group relative p-2 flex-1 cursor-pointer  hover:bg-slate-200 ${
@@ -55,13 +47,6 @@ export const ToolboxComponent = () => {
             className='text-lg font-semibold text-center w-full text-slate-300 group-hover:text-slate-800'
             style={{ transition: 'all ease .3s' }}
           />
-          <span
-            className='group-hover:opacity-100 transition-opacity bg-gray-600 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 
-                        -translate-x-1/2 opacity-0 m-4 mx-auto whitespace-nowrap'
-            style={{ transition: 'all ease .3s' }}
-          >
-            properties
-          </span>
         </button>
         <button
           className={`group relative p-2 flex-1 cursor-pointer  hover:bg-slate-200 ${
@@ -74,13 +59,6 @@ export const ToolboxComponent = () => {
             className='text-lg font-semibold text-center w-full text-slate-300 group-hover:text-slate-800'
             style={{ transition: 'all ease .3s' }}
           />
-          <span
-            className='group-hover:opacity-100 transition-opacity bg-gray-600 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 
-                        -translate-x-1/2 opacity-0 m-4 mx-auto whitespace-nowrap'
-            style={{ transition: 'all ease .3s' }}
-          >
-            tree views
-          </span>
         </button>
       </div>
 
